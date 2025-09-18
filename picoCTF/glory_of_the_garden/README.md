@@ -15,7 +15,7 @@ In this task we get a `.jpg` file that supposedly contained a hidden flag. The t
 ```bash
 ghex garden.jpg
 ```
-- Searched for `picoCTF` in **ghex** since the flag contains this string.
+- Searched for `CTF` in **ghex** since the flag contains this string.
 ![ghex screenshot showing the flag](screen.png)
 
 ## Solution
