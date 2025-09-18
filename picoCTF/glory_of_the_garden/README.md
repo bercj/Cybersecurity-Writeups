@@ -16,7 +16,7 @@ In this task we get a `.jpg` file that supposedly contained a hidden flag. The t
 ghex garden.jpg
 ```
 - Searched for `picoCTF` in **ghex** since the flag contains this string.
-![ghex screenshot showing the flag](Screenshot from 2025-09-18 15-32-22.png)
+![ghex screenshot showing the flag](picoCTF/glory_of_the_garden/Screenshot from 2025-09-18 15-32-22.png)
 
 ## Solution
 **Flag**: `picoCTF{more_than_m33ts_the_3y3eBdBd2cc}`
