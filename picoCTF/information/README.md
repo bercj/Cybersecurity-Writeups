@@ -1,4 +1,4 @@
-# Scan Surprise [picoCTF]
+# Information [picoCTF]
 
 ## Description
 In this task we get a `.jpg` file that supposedly contains a flag. The task was to recover the flag contained by the image.
