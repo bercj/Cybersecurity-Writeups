@@ -1,15 +1,19 @@
 # Red [picoCTF]
 
 ## Description
-In this task we were given a disk image and were supposed to find the flag.
+We were given a red PNG image that appeared empty. By inspecting its metadata and analyzing the image with steganography tools, we discovered a hidden flag.
 
 ## Approach
 
-1. First, I ran created a working copy of the disk image.
+1. I started by analyzing the file and noticed it appeared to be a simple red PNG image.
 
-2. Then, I mounted the image.
+2. Checking the metadata with `exiftool` revealed a hidden poem.
 
-3. Finally search the the loop device for the flag.
+3. The first letters of each line in the poem spelled `CHECKLSB`, hinting at Least Significant Bit (LSB) steganography.
+
+4. I used the `zsteg` tool to analyze the image's LSBs and found a Base64-encoded string hidden in the pixel data.
+
+5. Decoding the Base64 string revealed the flag.
 
 ## Steps
 - Check the file
