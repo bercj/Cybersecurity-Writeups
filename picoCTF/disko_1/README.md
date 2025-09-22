@@ -12,7 +12,7 @@ In this task we were given a disk image and were supposed to find the flag.
 3. Finally search the the loop device for the flag.
 
 ## Steps
-- Create working copy of the disk image using ``dd`:
+- Create working copy of the disk image using `dd`:
 ```bash
 ale@ale:~/Documents/Cybersecurity-Writeups/picoCTF/disko_1$ dd if=disko-1.dd of=workingdisko-1.dd bs=512 conv=noerror,sync status=progress
 102400+0 records in
