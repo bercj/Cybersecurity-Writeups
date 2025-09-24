@@ -11,6 +11,8 @@ Can you find the flag in this disk image? The right one is Linux! One wrong step
 - `fdisk`
 - `strings`
 
+## Note: The original disk image files were deleted from this repo to conserve storage space.
+
 ## Steps
 - Decompress the provided file.
 - Create a working copy (bit-by-bit) using `dd`:
