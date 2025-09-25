@@ -18,6 +18,6 @@ Each challenge folder typically contains:
 - `notes.txt` or `capture.log` (optional) — scratch notes, debugging logs
 
 ## Notes & disclaimer
-- Environment: Ubuntu 22.04.5 LTS (solutions confirmed on this OS)  
+- Environment: Ubuntu 22.04.5 LTS [Different environments are declared in the specific CTF's description]
 - These writeups are for education and research only. Do not use them to attack systems you do not own or have explicit permission to test.  
 - I may omit challenge assets when redistribution is not allowed by the original platform.
